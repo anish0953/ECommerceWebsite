@@ -1,0 +1,13 @@
+.summarycard{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pquant{
+    font-size: 12px;
+    opacity: 90%;
+}

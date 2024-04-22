@@ -1,0 +1,57 @@
+.wishlistcardsbody {
+  width: 35vw;
+  margin: 1rem;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: space-evenly;
+}
+.cardimgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: 10px;
+  flex: 1;
+  overflow: hidden;
+}
+.wcimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+  margin: 10px;
+}
+.flecboxc {
+  /* border: 1px solid pink; */
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.details {
+  /* border: 1px solid black; */
+  padding-left: 20px;
+}
+.details .tt {
+  opacity: 80%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.details p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.functionalities {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  padding: 0 29px;
+  justify-content: space-between;
+}

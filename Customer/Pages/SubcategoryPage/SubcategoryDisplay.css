@@ -1,0 +1,15 @@
+.displaySubcategory {
+  /* border: 1px solid red; */
+  padding: 5vh 10vh;
+}
+.displaySubcategory h1 {
+    text-align: center;
+  /* border: 1px solid red; */
+  padding-bottom: 20px;
+}
+.productListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

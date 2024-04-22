@@ -1,0 +1,26 @@
+.addContainer {
+  /* border: 1px solid rgb(0, 0, 0); */
+  border-radius: 5px;
+  /* margin: 5vh 8vw; */
+  padding: 10px;
+}
+.addtitle {
+  /* border: 1px solid blue; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+  padding: 2vh;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.addcardsbox {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}

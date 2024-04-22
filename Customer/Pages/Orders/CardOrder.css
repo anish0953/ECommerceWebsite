@@ -1,0 +1,26 @@
+.orderBox {
+  padding: 2vh 5vh;
+  border-radius: 5px;
+}
+
+.listofproducts {
+  border: 1px solid rgb(176, 174, 174);
+  padding: 20px;
+  border-radius: 5px;
+}
+.individualproduct {
+  border: 1px solid rgb(223, 223, 223);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+.eachorder {
+  margin: 20px 0;
+}
+.pimg img {
+  height: 80px;
+}

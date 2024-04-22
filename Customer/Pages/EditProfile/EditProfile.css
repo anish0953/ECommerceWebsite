@@ -1,0 +1,23 @@
+.epcontainer {
+  /* border: 1px solid red; */
+  padding: 20px 25vw;
+}
+.eptitle {
+  /* border: 1px solid blue; */
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.editcard {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleec {
+  font-weight: bold;
+}

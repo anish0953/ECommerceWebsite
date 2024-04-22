@@ -1,0 +1,23 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* background: url("https://th.bing.com/th/id/OIP.rYcr2i4t4wc5cHfzvc2CMQHaHa?pid=ImgDet&w=208&h=208&c=7&dpr=1.5"); */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+/* .login-image {
+  flex: 1;
+  overflow: hidden;
+} */
+.login-container {
+  flex: 0.32;
+  margin: 1rem;
+  padding: 0 50px;
+  /* border: 1px solid black; */
+}
+.gridbox {
+  border: 1px solid white;
+}

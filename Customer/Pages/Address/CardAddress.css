@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.addcard {
+  width: 28vw;
+  height: 50vh;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+  margin-bottom: 40px;
+  padding: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.carddetails {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 30vh;
+  /* overflow-y: scroll;     */
+  width: 100%;
+}
+.carddetails h6 {
+  margin-bottom: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.carddetails p {
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+.cardfunc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}

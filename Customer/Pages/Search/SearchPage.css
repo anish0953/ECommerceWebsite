@@ -1,0 +1,35 @@
+.Main-card-body {
+  /* border: 1px solid blue; */
+  padding: 10px auto;
+  margin: 20px 2px;
+  background-color: rgb(245, 245, 233);
+  width: 15rem;
+  padding-top: 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.CardDeck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 30px;
+  margin-bottom: 5vh;
+}
+.CardImg {
+  height: 45vh;
+  width: auto;
+}
+.pcardbtn {
+  border-radius: 0;
+  margin-top: 10px;
+  background-color: #354857;
+  border: none;
+}
+
+.pcardbtn:hover {
+  background-color: #222f39;
+}
+a {
+  text-decoration: none;
+}

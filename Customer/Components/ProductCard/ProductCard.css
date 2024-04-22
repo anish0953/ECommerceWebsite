@@ -1,0 +1,67 @@
+.productCard {
+  width: 15rem;
+  height: 30rem;
+  margin: 20px;
+  transition: all;
+  cursor: pointer;
+  /* border: 1px solid rgb(237, 237, 237); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.productCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.productCard .CardText {
+  transition: transform 0.2s ease-in-out;
+}
+.productCard:hover .CardText {
+  transform: translateY(-1rem);
+}
+
+.productCard-container {
+  height: 20rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productCard-img {
+  width: 90%;
+  object-fit: cover;
+  object-position: top;
+}
+a {
+  color: black;
+}
+
+.CardText {
+  background: white;
+  padding: 10px;
+}
+.CardText-p {
+  font-weight: bold;
+}
+.CardText-head {
+  font-weight: bold;
+  opacity: 60%;
+}
+.CardText-details {
+  display: flex;
+  align-items: center;
+  word-spacing: 2px;
+}
+.CardText-discount {
+  font-weight: bold;
+  color: green;
+}
+.CardText-price {
+  font-weight: bold;
+}
+.CardText-priceog {
+  opacity: 50%;
+  text-decoration-line: line-through;
+  margin-left: 5px;
+  margin-right: 5px;
+}

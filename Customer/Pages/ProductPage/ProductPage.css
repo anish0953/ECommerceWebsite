@@ -1,0 +1,120 @@
+.product_body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 10vh 0;
+}
+.product_image {
+  flex: 1;
+  border: 1px solid rgb(203, 203, 203);
+  margin: 20px;
+  padding: 30px;
+  overflow: hidden;
+}
+.product_image img {
+  height: 80vh;
+  transition: transform 0.5s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.product_image img:hover {
+  transform: scale(1.05);
+  /* border: 1px solid black; */
+}
+.product_detail {
+  flex: 1;
+  /* border: 1px solid blue; */
+  margin: 5vh 0;
+  padding: 10px;
+  max-width: 50vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* .product_details_basics {
+  border: 1px solid yellow;
+} */
+.product_details_basics h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #866528;
+}
+
+.product_details_basics h4 {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.product_details_basics p {
+  color: rgb(87, 87, 87);
+}
+/* .product_color_size {
+  border: 1px solid grey;
+
+} */
+.product_color_size span {
+  font-weight: bold;
+}
+.product_color_size h6 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.product_buy {
+  /* border: 1px solid purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.product_buy .btn {
+  margin: 10px;
+  width: 50%;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: 1px solid #866528;
+  font-family: "Lexend", sans-serif;
+  letter-spacing: 1px;
+}
+.product_buy .buy {
+  background-color: #866528;
+  transition: transform 0.3s;
+}
+.product_buy .buy:hover {
+  transform: scale(1.05);
+  background-color: #866528;
+}
+.product_buy .wishlist {
+  color: #866528;
+  transition: transform 0.3s;
+}
+.product_buy .wishlist:hover {
+  color: white;
+  background-color: #866528;
+  transform: scale(1.05);
+}
+.product_buy i {
+  margin-right: 10px;
+}
+
+.product_return_policy {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  align-items: flex-start;
+  text-align: start;
+}
+.product_return_policy h3 {
+  font-family: "Lexend", sans-serif;
+}
+.product_return_policy h6 {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(69, 69, 69);
+}
+.product_return_policy h6 a {
+  color: rgb(69, 69, 69);
+}

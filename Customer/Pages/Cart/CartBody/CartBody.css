@@ -1,0 +1,101 @@
+.CartBody-container {
+  display: flex;
+  flex-direction: column;
+}
+.CartBody-title {
+  /* border: 1px solid red; */
+  width: 70%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px;
+  margin-bottom: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+.totalcart-items {
+  font-size: 20px;
+  /* border: 1px solid orange; */
+}
+.CartBody-body {
+  /* border: 1px solid #354857; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.CartBody-cartItemsbody {
+  /* border: 1px solid blue; */
+  padding: 20px;
+  flex: 3;
+}
+.clearcartbtn {
+  float: right;
+  margin-top: 10px;
+}
+.CartBody-cartItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.CartBody-details {
+  /* border: 1px solid rgb(158, 158, 158); */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 300px;
+  margin: 20px;
+}
+.price-details {
+  /* border: 1px solid red; */
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.paymentdetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.payment-title {
+  font-weight: 500;
+  opacity: 90%;
+}
+
+.payment-price {
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.placeorderbtn {
+  margin-top: 20px;
+  border-radius: 0px;
+  background-color: #dc3545;
+  border: 0;
+  width: 100%;
+}
+.placeorderbtn:hover {
+  background-color: #c0313f;
+}
+.emptyCart {
+  margin: 60px 20px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border: 0;
+}

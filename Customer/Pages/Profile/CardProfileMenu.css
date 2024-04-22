@@ -1,0 +1,48 @@
+.profilemenucard {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  width: 25vw;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 10px 20px; */
+  overflow: hidden;
+}
+.menucard {
+  /* height: 18vh; */
+  /* border: 1px solid green; */
+  width: 100%;
+  padding: 5px 10px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuimage {
+  flex: 1;
+}
+.menuimage .menucardimg {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+}
+.menudetail {
+  height: 15vh;
+  padding: 10px 10px;
+  /* border: 1px solid green; */
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.menudetail p {
+  /* border: 1px solid green; */
+  opacity: 70%;
+  font-size: 14px;
+}
+.menudetail h6 {
+  font-weight: bold;
+  margin-top: 12px;
+}

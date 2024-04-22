@@ -1,0 +1,14 @@
+.menubody {
+  /* border: 1px solid red; */
+  height: 100%;
+  padding: 20px 50px;
+}
+.cardbody {
+  /* border: 1px solid blue; */
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

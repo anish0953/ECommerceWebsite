@@ -1,0 +1,11 @@
+.summarybox {
+  margin: 10vh 20vw;
+  padding: 10vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.orderplacedbtn {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

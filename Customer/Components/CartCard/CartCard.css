@@ -1,0 +1,98 @@
+.card-card {
+  width: 100%;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 10px 0;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 35vh;
+  margin: 10px;
+}
+
+.card-image {
+  margin-right: 10px;
+  flex: 2;
+  border: 1px solid rgb(210, 210, 210);
+  padding: 1px;
+  height: 10rem;
+  width: 10rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.card-details {
+  /* border: 1px solid green; */
+  flex: 5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.card-details-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-price {
+  /* border: 1px solid red; */
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.deleteitembtn {
+  border: 0;
+  border-radius: 0;
+}
+
+.card-details-func {
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.deleteitembtn {
+  border-radius: 0;
+  height: 40px;
+  width: 50px;
+}
+.deleteitembtn:hover {
+  background-color: #c0313f;
+}
+.subtn {
+  border-radius: 0;
+  height: 40px;
+  border: 1px solid red;
+  width: 50px;
+}
+.addbtn {
+  border-radius: 0;
+  height: 40px;
+  width: 50px;
+  border: none;
+}
+.quantitycount {
+  /* border: 1px solid blue; */
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 5px;
+}
